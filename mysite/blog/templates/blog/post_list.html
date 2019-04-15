@@ -1,17 +1,6 @@
 HEAD
 {% extends 'blog/base.html' %}
 
-<<<<<<< HEAD
-{% for post in posts %}
-          <div>
-              <p>published:{{ post.published_date}}</p>
-              <h2><a href="">{{ post.title }}</a></h2>
-              <p>{{ post.|linebreaksbr }}</p>
-          </div>
-{% endfor %}
-    </body>
- </html>
-=======
 {% block content %}
     {% for post in posts %}
             <div class="post">
@@ -23,4 +12,3 @@ HEAD
             </div>
     {% endfor %}
 {% endblock %}
->>>>>>> 5e96c92286279c6579dc284f0b7fa1c6655b21c6
